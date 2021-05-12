@@ -4,12 +4,11 @@
   "description": "",
   "scripts": {
     "build": "webpack",
-    "start": "webpack --watch",
-    "lint:write": "eslint src/** --fix"
+    "start": "webpack --watch"
   },
   "lint-staged": {
-    "*.js": [
-      "npm run lint:write"
+    "**/*.js": [
+      "eslint --fix"
     ]
   },
   "author": "",
