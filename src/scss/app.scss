@@ -2,4 +2,14 @@ $background-pink: pink;
 
 body {
   background-color: $background-pink;
+
+  display: flex;
+  flex-direction: column;
+}
+
+:-ms-input-placeholder {
+  color: gray;
+}
+::placeholder {
+  color: gray;
 }

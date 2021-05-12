@@ -24,13 +24,20 @@
     "mini-css-extract-plugin": "^1.6.0",
     "mrm": "^3.0.1",
     "node-sass": "^6.0.0",
+    "postcss": "^8.2.15",
+    "postcss-assets": "^5.0.0",
+    "postcss-loader": "^5.2.0",
+    "postcss-preset-env": "^6.7.0",
     "prettier": "2.3.0",
     "sass-loader": "^11.0.1",
     "style-loader": "^2.0.0",
+    "webp-in-css": "^0.6.0",
     "webpack": "^5.36.2",
     "webpack-cli": "^4.7.0"
   },
   "dependencies": {
-    "eslint-config-airbnb": "^18.2.1"
+    "autoprefixer": "^10.2.5",
+    "eslint-config-airbnb": "^18.2.1",
+    "postcss-inline-svg": "^5.0.0"
   }
 }
